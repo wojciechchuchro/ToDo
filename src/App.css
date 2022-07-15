@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+}
+
+body {
+  background: linear-gradient(to left, #00aaff, #00ff6c);
+}
+/* Buttons */
+
+.btn {
+  cursor: pointer;
+  border: none;
+  width: 10rem;
+  height: 2rem;
+  margin-top: 1rem;
+  border-radius: 1.5rem;
+  transition-duration: 0.4s;
+}
+
+.btn-primary {
+  color: black;
+  background-color: white;
+  border: 2px solid #4caf50;
+}
+
+.btn-primary:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
+}
+
+/* Container */
+
+.container {
+  margin-top: 2rem;
+  display: flex-wrap;
+  align-items: center;
+}
+
+/* Inputs */
+
+.input {
+  list-style: none;
+  outline: none;
+}
+
+.todo-input {
+  width: 30rem;
+  height: 2rem;
+  border-radius: 2rem;
+  border: solid 2px #4caf50;
+}
+
+.todo-list {
+  background-color: black;
+}
